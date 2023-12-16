@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(tukay.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgb(16, 18, 24);
+    color: white;
+    flex-wrap: wrap;
+    background-size: 500px;
+    height: 100vh;
+}
+
+nav{
+    display: block;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: inline-start;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+#navbar-container{
+    background-color: rgb(16, 18, 24);
+    padding: 0;
+    border: solid 1px white;
+    border-top: rgb(16, 18, 24);
+    border-left: 0px;
+    border-right: 0px;
+    padding: auto;
+    
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+#logo{
+    font-size: 2rem;
+    color: white;
+    position: left;
+    margin-right: auto;
+    height: 2vh;
+}
+
+#nav-links-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#section {
+  height: 50vh;
+  margin-top: 100px;
+  margin-bottom: 4px;
+  align-items: normal;
+}
+#section h1{
+    margin: 2rem;
+    font: 2em sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    position: relative; 
+    left: 15px;
+    
+}
+#section p{
+    margin: 50px;
+    margin-top: 0;
+}
+.sb2{
+    margin: 1rem;
+    display: flexbox;
+    position: relative;
+    margin-left: 60px; 
+}
+
+h4{
+    position: relative;
+    left: 50px;
+    margin-top: 0px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 100px;
+    align-items: center;
+    max-width: 200px;
+    margin-top: 20px;
+    gap: 3rem;
+}
+
+
